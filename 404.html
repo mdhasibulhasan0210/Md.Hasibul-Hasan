@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Md. Hasibul Hasan — Portfolio</title>
+    <script>
+      // SPA redirect for GitHub Pages
+      // Preserve path and query for React Router / hash routing
+      const path = window.location.pathname.replace('/portfolio', '')
+      const query = window.location.search
+      const hash = window.location.hash
+      window.location.replace(
+        '/portfolio/' + (path ? '?redirect=' + encodeURIComponent(path + query) + hash : '')
+      )
+    </script>
+  </head>
+  <body></body>
+</html>
