@@ -1,9 +1,9 @@
 {
-  "name": "Md. Hasibul Hasan — Frontend Developer",
+  "name": "Md. Hasibul Hasan",
   "short_name": "Hasibul Hasan",
-  "description": "Premium portfolio of Md. Hasibul Hasan — passionate frontend developer and React engineer from Bangladesh.",
-  "start_url": "/portfolio/",
-  "scope": "/portfolio/",
+  "description": "Portfolio of Md. Hasibul Hasan — frontend developer and React engineer from Bangladesh.",
+  "start_url": "/",
+  "scope": "/",
   "display": "standalone",
   "orientation": "any",
   "background_color": "#090909",
@@ -12,16 +12,21 @@
   "categories": ["portfolio", "developer", "technology"],
   "icons": [
     {
-      "src": "/portfolio/logo.png",
+      "src": "/logo.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "/portfolio/logo.png",
+      "src": "/logo.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"
+    },
+    {
+      "src": "/favicon.ico",
+      "sizes": "48x48",
+      "type": "image/x-icon"
     }
   ]
 }
